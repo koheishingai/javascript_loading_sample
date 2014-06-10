@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+		<script>
+		<!--
+			function show_ini() {
+				document.getElementById("top").style.display = "none";
+				document.getElementById("About").style.display = "none";
+				document.getElementById("load").style.display = "block";
+			}
+
+			function show_top() {
+				show_ini();
+				setTimeout("top_show()", 2000);
+			}
+
+			function top_show() {
+				document.body.style.opacity = 1;
+				document.getElementById("load").style.display = "none";
+				document.getElementById("top").style.display = "block";
+				document.getElementById("About").style.display = "none";
+			}
+
+			function show_about() {
+				show_ini();
+				setTimeout("about_show()", 2000);
+			}
+
+			function about_show() {
+				document.body.style.opacity = 1;
+				document.getElementById("load").style.display = "none";
+				document.getElementById("top").style.display = "none";
+				document.getElementById("About").style.display = "block";
+			}
+		-->
+		</script>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<ul class="nav navbar-nav">
+					<li><a href="#" onclick="show_top();">Top</a></li>
+					<li><a href="#" onclick="show_about();">About</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div style="margin:70px;">
+			<div id="load" style="display: none; text-align: center;"><img src='gif-load.gif' /></div>
+
+			<div id="top" style="display: block;">Top</div>
+
+			<div id="About" style="display: none;">About</div>
+
+		</div>
+	</body>
+</html>
